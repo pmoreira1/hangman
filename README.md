@@ -13,10 +13,11 @@
 - [Links](#links)
 
 ## Project Description
-Write a short description of your project. Write 1-2 sentences about what what you chose to build and why. 
+This is a simple implementation of the Game Hangman. The words for this game are loaded from a Text File that contains
+a few relevant words.
 
 ## Rules
-Describe briefly the rules of the game you chose. 
+Try to guess the word before the hangman drawing is complete. 
 
 ## Workflow
 Outline the workflow you used in your project. What are the steps you went through?

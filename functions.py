@@ -29,6 +29,7 @@ def word_so_far(word, letters_guessed):
 
 
 def display_board(letters_guessed, letters_failed, word, no_tries):
+    # Function Used for debugging.
     print("Guessed:", letters_guessed)
     print("Failed:", letters_failed)
     print("Word:", word)
