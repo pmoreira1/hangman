@@ -3,6 +3,10 @@ from os import system, name
 
 
 def ask_letter_user(exclude_list):
+    # ask user for input. Input should only be Letters. Either Upper or lower Case.
+    # only returns lower case and after validation.
+    # Validations: Letter, already played
+
     letter = False
     while not letter:
         hunch = input("Choose one letter: ")
@@ -17,6 +21,10 @@ def ask_letter_user(exclude_list):
 
 
 def word_so_far(word, letters_guessed):
+    # Iterate through the full word.
+    # If letter is in the guessed list replace _ with letter.
+    # If still missing letters return missing = true
+
     result = ""
     missing = False
     for w in word:
@@ -25,11 +33,13 @@ def word_so_far(word, letters_guessed):
         else:
             result += "_"
             missing = True
+        result += " "
     return missing, result
 
 
 def display_board(letters_guessed, letters_failed, word, no_tries):
     # Function Used for debugging.
+
     print("Guessed:", letters_guessed)
     print("Failed:", letters_failed)
     print("Word:", word)
@@ -37,6 +47,8 @@ def display_board(letters_guessed, letters_failed, word, no_tries):
 
 
 def clear_screen():
+    # Clears console output. Both Windows and Linux/MAC
+
     if name == 'nt':
         system('cls')
     else:
@@ -44,6 +56,8 @@ def clear_screen():
 
 
 def draw_hangman(tries):
+    # Draw hangman depending on the number of tries
+
     if tries == 0:
         print("   _____        ")
         print("  |     |       ")

@@ -23,7 +23,7 @@ Try to guess the word before the hangman drawing is complete.
 <img src="https://www.lucidchart.com/publicSegments/view/4b310f54-be02-4733-af15-4acac1d4f918/image.png" alt="Project Workflow">
 
 ## Organization
-A trello board was used to structure the work for this project.
+A trello board was used to structure the work for this project. Link in the links section below.
 
 File structure:
 ```
@@ -32,17 +32,16 @@ File structure:
 ├── README.md
 └── words.txt
 ```
-functions.py - 
+functions.py - Contains all the functions used during the project.
 
-README.md - 
+README.md - What you are reading.
 
-hangman.py - 
+hangman.py - Game file.
 
-words.txt - 
+words.txt - List of words to be used.
 
 ## Links
-Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project. 
 
 [Repository](https://github.com/pmoreira1/hangman)  
-[Slides](https://slides.com/)  
+[Slides](https://docs.google.com/presentation/d/11i9E36ezTKVsOMk3NszloSSBHMQ9wmQWH-KJ-odmjZg/edit?usp=sharing)  
 [Trello](https://trello.com/b/mfy8KsEi/hangman)  

@@ -25,6 +25,7 @@ if len(words) == 0:
 
 word = list(random.choice(words).lower())
 
+# Keep asking user for input until guess or excedeed number of tries
 while tries < no_of_tries and not guess:
     fc.clear_screen()
     print("========== H A N G M A N ==========\n")
