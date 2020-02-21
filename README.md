@@ -3,7 +3,7 @@
 # Hangman
 *Pedro Moreira*
 
-*Data Analytics, Amsterdam & Feb 2020]*
+*Data Analytics, Amsterdam & Feb 2020*
 
 ## Content
 - [Project Description](#project-description)
@@ -20,16 +20,29 @@ a few relevant words.
 Try to guess the word before the hangman drawing is complete. 
 
 ## Workflow
-Outline the workflow you used in your project. What are the steps you went through?
+<img src="https://www.lucidchart.com/publicSegments/view/4b310f54-be02-4733-af15-4acac1d4f918/image.png" alt="Project Workflow">
 
 ## Organization
-How did you organize your work? Did you use any tools like a trello or kanban board?
+A trello board was used to structure the work for this project.
 
-What does your repository look like? Explain your folder and file structure.
+File structure:
+```
+├── functions.py
+├── hangman.py
+├── README.md
+└── words.txt
+```
+functions.py - 
+
+README.md - 
+
+hangman.py - 
+
+words.txt - 
 
 ## Links
 Include links to your repository, slides and trello/kanban board. Feel free to include any other links associated with your project. 
 
-[Repository](https://github.com/)  
+[Repository](https://github.com/pmoreira1/hangman)  
 [Slides](https://slides.com/)  
-[Trello](https://trello.com/en)  
+[Trello](https://trello.com/b/mfy8KsEi/hangman)  

@@ -47,7 +47,12 @@ while tries < no_of_tries and not guess:
     else:
         guess = True
 
+fc.clear_screen()
+print("========== H A N G M A N ==========\n")
+missing, word_so_far = fc.word_so_far(word, letters_guessed)
+print("Word to guess:", word_so_far, "\n")
+fc.draw_hangman(tries)
 if guess:
-    print("YOU WINN!!!!")
+    print("YOU WIN!")
 else:
-    print("YOU LOOSEEEE")
+    print("YOU LOSE")
